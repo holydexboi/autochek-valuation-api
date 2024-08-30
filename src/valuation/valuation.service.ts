@@ -3,7 +3,6 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Valuation } from './valuation.entity';
 import { Vehicle } from '../vehicle/vehicle.entity';
-import axios from 'axios';
 
 @Injectable()
 export class ValuationService {

@@ -46,3 +46,10 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+
+## API Endpoints
+- POST /vehicles: Ingest vehicle data.
+- POST /valuations: Request vehicle valuation.
+- POST /loans: Submit a loan application.
+- PATCH /loans/ : Update loan status.

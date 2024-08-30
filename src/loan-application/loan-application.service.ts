@@ -30,6 +30,6 @@ export class LoanApplicationService {
 
   private checkEligibility(loanData: LoanApplication): boolean {
     // Implement loan eligibility logic here (e.g., loanAmount <= estimatedValue)
-    return loanData.loanAmount <= 50000; 
+    return loanData.loanAmount <= 50000;
   }
 }
